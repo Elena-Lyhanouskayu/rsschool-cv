@@ -1,1 +1,1 @@
-https://Elena-Lyhanouskayu.io/rsschool-cv/cv
+https://Elena-Lyhanouskayu.io/rsschool-cv/
