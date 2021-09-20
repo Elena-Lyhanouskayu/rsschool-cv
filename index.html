@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CV Elena Lyhanouskayu </title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+     <script>hljs.initHighlightingOnLoad();</script>
+
+
+<body>
+     <div class='big'>
+          <div class="burger"> <span></span></div>
+          <nav class="menu">
+               <ul>
+                    <li><a href="index.html#data">Contacts</a></li>
+                    <li><a href="index.html#about">About me</a></li>
+                    <li><a href="index.html#codeexample">Code example</a></li>
+                    <li><a href="index.html#education">Education</a></li>
+                    <li><a href="index.html#language">Language</a></li>
+
+               </ul>
+          </nav>
+     </div>
+
+
+     <script>
+          document.querySelector('.burger').addEventListener('click', function () {
+               document.querySelector('.burger span').classList.toggle('active');
+               document.querySelector('.menu').classList.toggle('animate');
+          })
+     </script>
+
+     <div class="container">
+
+          <header>
+               <nav class="navigation">
+                    <ul>
+                         <li><a href="index.html#data">Contacts</a></li>
+                         <li><a href="index.html#about">About me</a></li>
+                         <li><a href="index.html#codeexample">Code example</a></li>
+                         <li><a href="index.html#education">Education</a></li>
+                         <li><a href="index.html#language">Language</a></li>
+
+                    </ul>
+               </nav>
+
+          </header>
+
+          <main>
+               <section class="contacts">
+                    <header>
+                         <figure>
+                              <img src="h-2.jpg" alt="Elena Lyhanouskayu">
+                         </figure>
+
+                         <h1>
+                              Elena <br>Lyhanouskayu<br>
+                         </h1>
+
+                    </header>
+
+                    <div class="data" id="data">
+                         <h2>
+                              Contacts
+                         </h2>
+                    </div>
+                    <div class="cont">
+                         <ul>
+                              <li><b>Phone: </b>+375336713655</li>
+                              <li><b>E-mail: </b>elena-sherba@mail.ru</li>
+                              <li><b>Discord </b>Elena-Lyhanouskayu</li>
+                              <li><b>GitHub:</b> <a href="https://github.com/Elena-Lyhanouskayu"> Elena-Lyhanouskayu
+                                   </a>
+                              </li>
+                         </ul>
+                    </div>
+               </section>
+
+               <section class="aboutMe">
+                    <div class="colorback" id="about">
+
+                         <h2>About me</h2>
+
+                    </div>
+
+                    <p>
+                         I want to learn developer skills and put them into practice. I have experience working as
+                         part
+                         of a
+                         team and individually
+                    </p>
+
+
+
+                    <div class="colorback" id="codeexample">
+
+                         <h2>Code example</h2>
+
+                    </div>
+
+                    <div class="code">
+                         <pre>
+                          <code class="language-javascript" >
+
+   let  word="codder"
+
+   if ((word.length % 2)!=0 ){
+      index= (word.length-1)/2
+      console.log (word[index]) 
+   }
+   else {
+     index=(word.length/2)
+     console.log( word[index], word[index+1]  )
+   }
+                          </code>
+                         </pre>
+                         <script src="/path/to/highlight.min.js"></script>
+                         <script>hljs.highlightAll();</script>
+                    </div>
+
+                    <div class="colorback" id="education">
+                         <h2>Education</h2>
+                    </div>
+
+                    <p>
+                         Baranovichi State University<br>faculty of Engineering
+                    </p>
+
+
+                    <div class="colorback" id="language">
+                         <h2>Language:</h2>
+                    </div>
+
+                    <p>
+                         English A1
+                    </p>
+
+
+
+               </section>
+
+          </main>
+
+          <footer>
+
+               <a href="https://github.com/Elena-Lyhanouskayu" target="_blank" title="GitHub"> <img
+                         src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
+
+               <time>2021</time>
+
+               <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="Rsshool"
+                         title="Rsshool"> </a>
+          </footer>
+
+     </div>
+</body>
+
+</html>
