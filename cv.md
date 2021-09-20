@@ -13,8 +13,19 @@
 
 ***
 ## **Code example** ##
-### ```  ``` ###
+ ```javascript
 
+let  word="codder"
+ if ((word.length % 2)!=0 ){
+
+    index= (word.length-1)/2
+    console.log (word[index]) 
+     }
+ else {
+      index=(word.length/2)
+     console.log( word[index], word[index+1])
+             }
+  ```
 ***
 ##  **Education** ##
 ### Baranovichi State University,  faculty of Engineering ###
